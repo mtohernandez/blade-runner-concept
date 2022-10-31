@@ -1,0 +1,118 @@
+:root{
+  
+  --header-height: 6rem; 
+
+  --main-font-color: rgb(255, 255, 255);
+  --second-font-color: #1D1D1F;
+  --hover-font-color: rgb(223, 223, 223);
+
+  --normal-font-size: 0.2rem;
+  --big-font-size: 2rem;
+  
+  --body-font: 'Poppins', Arial;
+
+  --default-border-radius: 10px;
+
+  --min-body-height: 100vh;
+  --min-body-width: 100vw;
+  --perspective: 300px;
+
+
+
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  --mb-5: 5rem;
+  --mb-7: 7rem;
+
+  --z-fixed: 100;
+  --z-tooltop: 10; 
+  --z-top: 1000;
+  --z-under: 1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+body{
+  background-color: black;
+  font-family: var(--body-font);
+}
+
+
+button, p, input{
+  font-family: var(--body-font);
+  border: none;
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+input:focus{
+  outline: 1px solid var(--main-font-color);
+}
+
+
+.grid{
+  display: grid;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.lightbold{
+  font-weight: 600;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.section{
+  height: 100vh;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/section.css" />
+    <link rel="stylesheet" href="./css/navBar.css" />
+    <title>Blade Runner</title>
+  </head>
+  <body id="my-scrollbar">
+    <header class="header" id="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo bold">B</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link"> about </a>
+            </li>
+            <li class="nav__item">
+              <a href="#story" class="nav__link"> story </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="parallax">
+      <div class="parallax__layer rainfog">
+        <video src="./assets/video/particles.mp4" autoplay loop muted></video>
+      </div>
+      <div class="parallax__layer filterfog">
+        <div class="filterfog-text">
+          <h1>blade runner 2049</h1>
+        </div>
+      </div>
+      <div class="parallax__group">
+        <div class="parallax__layer background-gradient"></div>
+        <div id="backfog" class="parallax__layer backfog"></div>
+        <div id="fog" class="parallax__layer fog-animation"></div>
+        <div id="characters" class="parallax__layer characters"></div>
+        <div class="parallax__layer frontfog"></div>
+      </div>
+
+      <div class="audio-player">
+        <div id="bars">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+
+      <section class="story-section">
+        <div class="cast">
+          <div class="cast-title">
+            <h2 class="capitalize">the cast (main characters)</h2>
+          </div>
+          <div class="cast_list">
+            <ul class="cast-list">
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/Ryan_Gosling_in_2018.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">ryan gosling</h5>
+                  <p class="capitalize">officer K/ joe</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/ana.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">ana de armas</h5>
+                  <p class="capitalize">joi</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/harrison.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">harrison ford</h5>
+                  <p class="capitalize">rick deckard</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/dave.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">dave bautista</h5>
+                  <p class="capitalize">sapper morton</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/mack.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">mackenzie davis</h5>
+                  <p class="capitalize">mariette</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/robin.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">robin wright</h5>
+                  <p class="capitalize">lt. joshi</p>
+                </div>
+              </li>
+              <li class="cast-item">
+                <div class="cast-item-picture">
+                  <img src="./assets/img/actors/jared.jpg" alt="">
+                </div>
+                <div class="cast-item-info">
+                  <h5 class="capitalize">jared leto</h5>
+                  <p class="capitalize">niander wallace</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>   
+      </section>
+      <section class="api-section">
+        <video class="video-api" src="./assets/video/trailer.mp4" autoplay muted loop></video>
+        <div class="api-title capitalize">
+          <h1>wallace database</h1>
+          <p>here you can select a random replicant</p>
+        </div>
+        <div class="api-button">
+            <button class="button capitalize">generate</button>
+        </div>
+
+        <div class="api-user-import">
+
+          <!-- <div class="card">
+            <div class="card-picture">
+              <img src="./assets/img/actors/ana.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <div class="card-content-name">
+                <h3>name second name</h3>
+              </div>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+              <p>info</p>
+            </div>
+          </div> -->
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="capitalize">this site is still in development - concept - made by mateo hernandez</p>
+    </footer>
+
+    <script src="./js/api.js"></script>
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script src="./js/three.min.js"></script>
+    <script src="./js/vanta.fog.min.js"></script>
+    <script>
+      VANTA.FOG({
+        el: "#fog",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        highlightColor: 0x0,
+        midtoneColor: 0xff4b00,
+        lowlightColor: 0x0,
+        baseColor: 0xffb400,
+        blurFactor: 0.51,
+        speed: 0.7,
+        zoom: 0.7,
+      });
+    </script>
+    <script src="./js/animations.js"></script>
+  </body>
+</html>
